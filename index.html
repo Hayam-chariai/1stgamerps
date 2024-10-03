@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="game.js" defer></script>
+</head>
+<body class="bg-blue-500 flex items-center justify-center h-screen">
+    <div id="gameContainer" class="bg-white p-8 rounded-lg shadow-lg text-center">
+        <h1 class="text-3xl font-bold mb-4">Rock Paper Scissors</h1>
+        <p class="text-lg mb-6">Choose your move:</p>
+
+        <div class="flex justify-center space-x-4 mb-6">
+            <button id="rock" class="choice-btn bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700">Rock</button>
+            <button id="paper" class="choice-btn bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700">Paper</button>
+            <button id="scissors" class="choice-btn bg-gray-800 text-white px-4 py-2 rounded-lg hover:bg-gray-700">Scissors</button>
+        </div>
+
+        <h2 id="resultMessage" class="text-xl font-semibold"></h2>
+    </div>
+</body>
+</html>
